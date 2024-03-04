@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+.app-container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.qr-image{
+    padding: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height: 250px;
+    width: 250px;
+}
+
+.input-label{
+    display: block;
+    margin-bottom: 5px;
+    color: rgba(33, 6, 97, 0.877);
+    font-size: 20px;
+    font-weight: 500;
+}
+input[type="text"]{
+    padding: 12px;
+    margin-bottom: 20px;
+    width: 100%;
+    font-size: 16px;
+    border: 2px solid  rgba(33, 6, 97, 0.877);
+    border-radius: 5px;
+}
+button{
+    padding: 15px 20px;
+    font-size: 18px;
+    color: azure;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.generate-button{
+    background-color: #011d43;
+}
+.generate-button:disabled{
+    background-color: #bdc3c7;
+    cursor: not-allowed;
+}
+.download-button{
+    background-color: rgba(4, 104, 4, 0.596);
+    margin-left: 10px;
+}
+.download-button:hover{
+    background-color: rgba(1, 39, 1, 0.918);
+}
